@@ -8,3 +8,5 @@
     > <pre></pre>
         - โดยปกติ p จะไม่สนใจ format ของ content ที่อยู่ข้างใน
         - แต่ pre จะแสดงผลตาม format ที่เราจัดไว้ข้างใน tag
+
+    https://youtu.be/HGTJBPNC-Gw?si=Z_FsIIcVGyQqujb8&t=673
