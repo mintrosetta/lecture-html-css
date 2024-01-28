@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1em;
+    /* 
+        em เป็นมาตรฐานของขยาด โดย 
+        1 em = 100% ของขนาดตอนแรกของ element 
+        1.1 em = 110% ของขนาดตอนแรกของ element
+    */
+
+    font-weight: bold;
+    font-style: italic;
+}
