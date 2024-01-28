@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow lecture</title>
+    <link rel="stylesheet" href="./overflow.css">
+</head>
+
+<body>
+    <!-- 
+        ใช้กำหนดพฤติกรรมเมื่อ content ไม่พอดีกับ container 
+        โดยจะมีทั้งหมด 5 สถานะ
+            visible
+                ทำให้เนื้อหาล้นออกจากกล่อง
+            hidden
+                ซ่อนส่วนที่เกินออกไป
+            clip
+                กำหนดเนื้อหาว่าล้นออกมาได้มากน้อยแค่ไหน
+                ใช้คู่กับ overlow-clip-margin เช่น
+                    overflow: clip;
+                    overflow-clip-margin: 13px;
+            scroll
+                เพิ่ม scroll bar เข้ามา
+            auto
+                ถ้า content ไม่เกิน ทุกอย่างจะปกติ แต่ถ้าเกิน จะทำการเพิ่ม scoll bar
+    -->
+    <h1>Overflow lecture</h1>
+
+    <div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus provident maxime dolorem, vel odio quod sed
+            nemo ad neque numquam sequi amet. Fugit esse voluptates quas a ratione omnis similique!</p>
+    </div>
+</body>
+
+</html>
