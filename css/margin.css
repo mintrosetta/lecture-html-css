@@ -1,0 +1,24 @@
+/* 
+    เป็นพื้นที่รอบ ๆ element
+*/
+
+p {
+    margin-left: 1em;
+}
+
+.box {
+    border: 5px solid;
+    font-size: 5em;
+    width: 250px;
+    height: 250px;
+}
+
+#box1 {
+    background-color: red;
+    margin-top: 50px;
+}
+
+#box2 {
+    background-color: cadetblue;
+    margin-top: 50px;
+}
