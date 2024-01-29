@@ -1,0 +1,39 @@
+h1::first-letter {
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line {
+    background-color: rgb(248, 248, 126);
+}
+
+/* แก้ style ตอนคลุมดำ */
+p::selection {
+    color: white;
+    background-color: rgb(65, 65, 65);
+}
+
+/* ก่อนที่ li จะถูก render */
+#fruit li::before {
+    
+}
+
+#apple::after {
+    content: " a";   
+}
+
+#orange::after {
+    content: " b";
+}
+
+#banana::after {
+    content: " c";
+}
+
+/*  สำหรับใช้จัดสไตล์ bullet ของอีลีเมนต์ที่มี display เป็น list-item เช่นแท็ก li หรือ summary */
+#fruit li::marker {
+    content: "True ";
+    color: rgb(89, 216, 89);
+    font-weight: bold;
+    font-size: 1.2em;
+}
