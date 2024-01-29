@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinators Lecture</title>
+    <link rel="stylesheet" href="../css/combinators.css">
+    <!-- 
+        ความสัมพันธ์ระหว่างตัวที่ระบุ
+            = descendant
+            > child
+                element ที่อยู่ด้านใน เช่น a > b จะหมายถึง
+                element b ที่อยู่ข้างใน a
+            ~ general sibling
+                เลือก element ที่อยู่ถัดจากตัวที่เลือก โดยจะเลือกทั้งหมด
+            + adjacent siblink
+                เลือก element ที่อยู่ถัดจากตัวที่เลือก โดยจะเลือกแค่ 1 ตัว
+     -->
+</head>
+<body>
+    <div id="container">
+        <p>This is #1</p>
+        <p>This is #2</p>
+        <div>
+            <p>This is #4</p>
+        </div>
+    </div>
+    <p>This is #4</p>
+    <p>This is #5</p>
+</body>
+</html>
