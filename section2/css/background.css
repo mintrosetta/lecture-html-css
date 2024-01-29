@@ -1,0 +1,7 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat; /* สั่งให้ไม่แสดง bg ซ้ำ */
+    background-position: center; /* สั่งให้ bg อยู่ตรงกลาง */
+    background-attachment: fixed; /* สั่งให้ bg ไม่ขยับ แม้จะมีการเปลี่ยนแปลง */
+    background-size: cover; /* สั่งให้ bg กว้างเต็มพื้นที่ */
+}
