@@ -1,0 +1,45 @@
+a:link {
+    color: rgb(171, 171, 228);
+}
+
+/* เมื่อนำ mouse ไปวางไว้บน element */
+a:hover {
+    color: rgb(138, 138, 205);
+    font-size: 1.1em;
+}
+
+/* เมื่อกด element ค้างไว้ */
+a:active {
+    color: aqua;
+    font-size: 1.1em;
+}
+
+a:visited {
+    color: rgb(255, 0, 0);
+}
+
+
+li:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+/* ถ้าไม่ได้ hover อยู่ */
+li:not(:hover) {
+    background-color: bisque;
+}
+
+/* ใช้ระบุว่าต้องการปรับ css กับ child ตัวไหนของ element ระบุ n เพื่อให้ทำซ้ำได้ */
+li:nth-child(2n) {
+    background-color: aqua;
+}
+
+#greeting p {
+    background-color: rgb(158, 158, 241);
+    padding: 10px;
+    display: none;
+}
+
+#greeting:hover p {
+    display: block;
+}
