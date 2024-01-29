@@ -1,0 +1,16 @@
+.container {
+    background-color: gray;
+    height: 100vh; /* vh = viewport height หรือ ส฿งเต็มหน้าจอผู้ใช้ */
+}
+
+.box {
+    background-color: white;
+    border: 2px solid;
+    height: auto; /* auto calculate height when render web page */
+    width: 50%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box; /* ทำให้ความกว้างของ div มีค่าเท่ากับขนาดที่ที่เรากำหนดไว้ ไม่เกินจากนี้ */
+    text-align: center;
+    min-height: 50%;
+}
