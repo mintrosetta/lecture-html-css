@@ -1,0 +1,44 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidLeft {
+    /* ย้ายตำแหน่งมาจาก */
+    from{transform: translateX(100%);}
+}
+
+@keyframes slideRight {
+    /* ย้ายไปที่ตำแหน่ง */
+    to{transform: translateX(100%);}
+}
+
+@keyframes slideUp {
+    /* ย้ายไปที่ตำแหน่ง */
+    from{transform: translateY(100%);}
+}
+
+@keyframes slideDown {
+    /* ย้ายไปที่ตำแหน่ง */
+    to{transform: translateY(100%);}
+}
+
+@keyframes rotate{
+    50%{transform: rotateX(360deg);}
+}
+
+@keyframes grows {
+    50%{transform: scale(2, 2);}
+}
+
+@keyframes shrink {
+    50%{transform: scale(0.5, 0.5);}
+}
+
+@keyframes fade {
+    50%{opacity: 0;}
+}
